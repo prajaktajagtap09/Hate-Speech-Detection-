@@ -1,0 +1,8 @@
+sample = "Let's unite and kill all the people who are protesting against the government"
+data = cv.transform([sample]).toarray()
+print(clf.predict(data))
+
+
+
+OUTPUT
+['Hate Speech']

@@ -1,0 +1,10 @@
+data = data[["tweet", "labels"]]
+print(data.head())
+
+                                               tweet                 labels
+0  !!! RT @mayasolovely: As a woman you shouldn't...  No Hate and Offensive
+1  !!!!! RT @mleew17: boy dats cold...tyga dwn ba...     Offensive Language
+2  !!!!!!! RT @UrKindOfBrand Dawg!!!! RT @80sbaby...     Offensive Language
+3  !!!!!!!!! RT @C_G_Anderson: @viva_based she lo...     Offensive Language
+4  !!!!!!!!!!!!! RT @ShenikaRoberts: The shit you...     Offensive Language
+

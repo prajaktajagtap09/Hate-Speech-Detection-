@@ -1,0 +1,9 @@
+x = np.array(data["tweet"])
+y = np.array(data["labels"])
+
+cv = CountVectorizer()
+X = cv.fit_transform(x) # Fit the Data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=42)
+
+clf = DecisionTreeClassifier()
+clf.fit(X_train,y_train)
